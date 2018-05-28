@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_background"
+    android:layoutDirection="rtl"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/descTextView"
+        android:layout_width="0dp"
+        android:layout_weight="78"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textColor="@color/text_color"
+        android:lineSpacingExtra="5dp"
+        android:textSize="18sp"
+        android:padding="5dp"
+
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="0dp"
+        android:layout_weight="22"
+        android:layout_height="73dp"
+        android:padding="4dp"
+        android:text="@string/call_text"
+        android:textColor="@color/button_textColor"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_selector"/>
+</LinearLayout>

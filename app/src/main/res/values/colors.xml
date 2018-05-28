@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b79c6</color>
+    <color name="colorPrimaryDark">#255a95</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_background">#F5F5F5</color>
+    <color name="divider_color">#F5F5F5</color>
+    <color name="text_color">#255a95</color>
+    <color name="button_textColor">#FFF</color>
+    <color name="stroke_color">#2b79c6</color>
+    <color name="item_background">#F5F5F5</color>
+    <color name="call_button_inner_color">#2b79c6</color>
+    <color name="call_button_stroke">#aecbe7</color>
+</resources>
