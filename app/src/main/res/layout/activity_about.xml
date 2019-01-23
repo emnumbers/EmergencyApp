@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#fff"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <android.support.v7.widget.Toolbar
@@ -13,13 +16,73 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:elevation="8dp"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
-    <android.support.v4.widget.SwipeRefreshLayout
-        android:id="@+id/swipe"
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_weight="50"
+    android:layout_height="0dp">
+    <Button
+        android:gravity="right|center_vertical"
+        android:text="مبادرة البرمجة من اجل العراق"
+        android:textSize="20sp"
+        android:fontFamily="@font/jf_flat_regular"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:drawableRight="@mipmap/code_icons"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <WebView
-            android:id="@+id/WebV"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    </android.support.v4.widget.SwipeRefreshLayout>
+        android:layout_height="wrap_content"
+        android:onClick="AboutCode"
+        />
+    <Button
+        android:gravity="right|center_vertical"
+        android:text="  فريق العمل"
+        android:textSize="20sp"
+        android:fontFamily="@font/jf_flat_regular"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:drawableRight="@drawable/about_team_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="AboutTeam"
+        />
+    <Button
+        android:gravity="right|center_vertical"
+        android:text="  حول التطبيق"
+        android:textSize="20sp"
+        android:fontFamily="@font/jf_flat_regular"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:drawableRight="@drawable/about_app_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="AboutApp"
+        />
+    <Button
+        android:gravity="right|center_vertical"
+        android:text="  راسلنا"
+        android:textSize="20sp"
+        android:fontFamily="@font/jf_flat_regular"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:drawableRight="@drawable/mail_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="MailUs"
+        />
+</LinearLayout>
+
+    <ImageView
+android:src="@drawable/codeiraq"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="43"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:fontFamily="@font/jf_flat_regular"
+        android:textSize="23sp"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:text=" Code For Iraq"
+        android:drawableLeft="@drawable/copyright_icon"
+        android:layout_width="wrap_content"
+        android:layout_weight="7"
+        android:layout_height="0dp" />
+
 </LinearLayout>
