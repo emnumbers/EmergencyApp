@@ -1,9 +1,54 @@
 <resources>
     <string name="app_name">ارقام الطوارئ والخدمات</string>
-    <string name="rate">rate</string>
+    <string name="rate">تقييم</string>
     <string name="search">Search</string>
-    <string name="about">about</string>
+    <string name="about">حول التطبيق</string>
     <string name="call_text">اتصال</string>
     <string name="email">emnumbers-iraq@codeforiraq.org</string>
     <string name="e_mail">E-Mail</string>
+    <string name="select_all_query">select * from ENumbersTable</string>
+
+    <string name="about_codeforiraq">
+ تعتبر "Code For IRAQ" مبادرة تعليمية حقيقية ترعى المهتمين بتعلم تصميم وبرمجة تطبيقات الهاتف الجوال
+
+ومواقع الانترنت وبرامج الحاسوب والشبكات والاتصالات ونظم تشغيل الحاسوب باستخدام التقنيات مفتوحة المصدر Open
+Source ،
+ كما توفر لهم جميع الدروس التعليمية اللازمة وبشكل مجاني تماماً</string>
+
+    <string name="about_app">
+تطبيق يحتوي على قائمة بجميع أرقام الطوارئ و الخدمات في العراق ,
+الهدف منه الوصول الى هذه الارقام في وقت قصير عند الحاجة إليه كل حسب محافظته.</string>
+
+    <string-array name="about_team">
+        <item>محمد عيسى</item>
+        <item>ولاء تحسين فاضل</item>
+        <item>سجاد محمد باقر</item>
+        <item>محمد رشاد بكر</item>
+        <item>ايمان محمد رمزي</item>
+        <item>شفاء عبدالله علي</item>
+        <item>نور موفق محمد</item>
+        <item>Onur Işık</item>
+    </string-array>
+
+    <string-array name="governorateArray">
+        <item>بغداد</item>
+        <item>البصرة</item>
+        <item>الموصل</item>
+        <item>كركوك</item>
+        <item>النجف</item>
+        <item>كربلاء</item>
+        <item>الانبار</item>
+        <item>صلاح الدين</item>
+        <item>ديالى</item>
+        <item>بابل</item>
+        <item>المثنى</item>
+        <item>ميسان</item>
+        <item>واسط</item>
+        <item>ذي قار</item>
+        <item>اربيل</item>
+        <item>السليمانية</item>
+        <item>القادسية</item>
+        <item>دهوك</item>
+    </string-array>
+
 </resources>
